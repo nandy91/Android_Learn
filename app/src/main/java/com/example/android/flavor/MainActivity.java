@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //This will inflate the view from the acitivity_main xml layout file
         setContentView(R.layout.activity_main);
 
         // Create an ArrayList of AndroidFlavor objects
